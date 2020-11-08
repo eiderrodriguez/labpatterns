@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		SymptomFactory f = new SymptomFactory();
 		
-		Covid19Pacient p1=new Covid19Pacient("aitor", 35);
+		Covid19Pacient p1 = new Covid19Pacient("aitor", 35);
 		PacientSymptomGUI psGUI1 = new PacientSymptomGUI(p1);
 		
 		Medicament m=new Medicament("Ibuprofeno");
